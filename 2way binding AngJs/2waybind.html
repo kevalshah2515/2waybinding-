@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>abc</title>
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="2waybind.js"></script>
+</head>
+<body ng-controller="myController">
+
+<p>Id: {{student.id}}</p>
+<p>Name: {{student.name}}</p>
+<p>C.G.P.A : {{student.cgpa}}</p>
+
+
+<p>Id: <input type="number" ng-model="student.id"></p>
+<p>name: <input type="text" ng-model="student.name"></p>
+<p>C.G.P.A: <input type="number" ng-model="student.cgpa"></p>
+</body>
+</html>
